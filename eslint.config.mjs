@@ -65,6 +65,13 @@ export default [
       'react-hooks/exhaustive-deps': 'warn',
       'react/prop-types': 0,
       'react/display-name': 0,
+      // MUI
+      'no-restricted-imports': [
+        'error',
+        {
+          'patterns': ['@mui/*/*/*']
+        }
+      ],
       // Common
       'prettier/prettier': 'error',
       'import/no-unresolved': 'error',
