@@ -1,10 +1,8 @@
-import Button from '@mui/material/Button';
-
+import { ThemeSelect } from '~/components'
 const Home = () => {
-  return  (
+  return (
     <>
-    <div>Hello world</div>
-    <Button variant="contained">Hello world</Button>
+      <ThemeSelect />
     </>
   )
 }
