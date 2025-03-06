@@ -6,7 +6,7 @@ import { PATHS } from './paths'
 
 // Pages
 const ErrorPage = lazy(() => import('~/pages/error'))
-const Home = lazy(() => import('~/pages/home'))
+const Boards = lazy(() => import('~/pages/boards'))
 
 export const AppRoutes: React.FC = () => {
   const routes = useRoutes([
@@ -16,7 +16,7 @@ export const AppRoutes: React.FC = () => {
       children: [
         {
           index: true,
-          element: <Home />
+          element: <Boards />
         },
         {
           path: '*',
