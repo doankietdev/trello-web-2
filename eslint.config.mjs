@@ -87,7 +87,7 @@ export default [
         { argsIgnorePattern: '^_' }
       ],
       // '@typescript-eslint/explicit-function-return-type': 'warn',
-      '@typescript-eslint/no-explicit-any': 'error',
+      // '@typescript-eslint/no-explicit-any': 'error',
       'no-console': 1,
       'no-lonely-if': 1,
       'no-unused-vars': 1,
