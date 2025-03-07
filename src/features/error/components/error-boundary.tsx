@@ -3,7 +3,7 @@ import { useLocation } from 'react-router-dom'
 import { useAppDispatch } from '~/hooks/use-app-dispatch'
 import { useErrorStore } from '../hooks/useErrorStore'
 
-const ErrorPage = lazy(() => import('~/pages/error'))
+const ErrorPage = lazy(() => import('~/pages/error/error'))
 
 interface ErrorBoundaryProps {
   children: ReactNode

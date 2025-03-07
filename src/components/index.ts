@@ -1,2 +1,2 @@
-export * from './loading-spinner'
-export * from './theme-select'
+export * from './loading-spinner/loading-spinner'
+export * from './theme-select/theme-select'

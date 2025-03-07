@@ -1,7 +1,9 @@
 const ROOTS = {
-  HOME: '/'
+  HOME: '/',
+  BOARDS: '/boards'
 }
 
 export const PATHS = {
-  HOME: ROOTS.HOME
+  HOME: ROOTS.HOME,
+  BOARDS: ROOTS.BOARDS
 }

@@ -1,5 +1,5 @@
 import Box from '@mui/material/Box'
-import { BoardsBar } from "./components"
+import { BoardsBar } from "./boards-bar/boards-bar"
 import { CustomTheme } from '~/theme'
 
 const Boards = () => {

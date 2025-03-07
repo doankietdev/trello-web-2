@@ -5,13 +5,13 @@ import { MainLayout } from '~/layouts'
 import { PATHS } from './paths'
 
 // Pages
-const ErrorPage = lazy(() => import('~/pages/error'))
-const Boards = lazy(() => import('~/pages/boards'))
+const ErrorPage = lazy(() => import('~/pages/error/error'))
+const Boards = lazy(() => import('~/pages/boards/boards'))
 
 export const AppRoutes: React.FC = () => {
   const routes = useRoutes([
     {
-      path: PATHS.HOME,
+      path: PATHS.BOARDS,
       element: <MainLayout />,
       children: [
         {

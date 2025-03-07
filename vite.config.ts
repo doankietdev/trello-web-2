@@ -3,6 +3,10 @@ import { defineConfig } from 'vite'
 import svgr from 'vite-plugin-svgr'
 
 export default defineConfig({
-  plugins: [react(), svgr()],
+  plugins: [react(), svgr({
+    svgrOptions: {
+      exportType: 'default'
+    }
+  })],
   resolve: { alias: [{ find: '~', replacement: '/src' }] }
 })
